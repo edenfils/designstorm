@@ -25,7 +25,7 @@ Route::get('/account/projects/{id}/delete', 'ProjectController@destroy');
 
 //pages
 Route::get('/', 'PageController@index');
-Route::post('/results', 'PageController@results');
+Route::post('/results', 'PageController@results')->middleware('auth');;
 Route::get('/search', 'PageController@index');
 Route::get('/search/{search}', 'PageController@search');
 

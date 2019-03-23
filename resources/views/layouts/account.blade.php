@@ -14,6 +14,9 @@
       <div id="sidemenu">
         <div class="logo"> </div>
         <nav>
+          <a class="active" href="/">
+            <i class="fa fa-home" aria-hidden="true"></i>Home
+          </a>
           <a class="active" href="/account">
             <i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard
           </a>
