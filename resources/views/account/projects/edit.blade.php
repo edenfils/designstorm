@@ -58,7 +58,7 @@
                       <div class="col-md-3">
                         <div class="box">
                           <div style="position: relative; background: url('{{$inspiration->image_url}}') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;"></div>
-                          <a href="/projects/inspiration/{{$inspiration->image_info}}/delete">Delete</a>
+                          <a href="/projects/inspiration/{{$inspiration->img_info}}/delete">Delete</a>
                         </div>
                       </div>
                     @endforeach
